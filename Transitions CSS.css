@@ -1,0 +1,80 @@
+.transition {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+.transition:hover {
+    cursor: pointer;
+}
+
+/* Transition de couleur */
+.transition-couleur {
+    background-color: #ff7f0e;
+}
+
+.transition-couleur:hover {
+    background-color: #e98cd6;
+}
+
+/* Transition de rotation */
+.transition-rotation {
+    background-color: #2ca02c;
+    transform: rotate(0deg);
+}
+
+.transition-rotation:hover {
+    transform: rotate(180deg);
+}
+
+/* Transition de taille */
+.transition-taille {
+    background-color: #9467bd;
+}
+
+.transition-taille:hover {
+    transform: scale(1.2);
+}
+
+/* Transition de position */
+.transition-position {
+    background-color: #1f77b4;
+    position: relative;
+}
+
+.transition-position:hover {
+    left: 50px;
+}
+
+/* Transition d'opacité */
+.transition-opacite {
+    background-color: #d62728;
+    opacity: 1;
+}
+
+.transition-opacite:hover {
+    opacity: 0.5;
+}
+
+/* Transition de transformation en echelle */
+.transition-echelle {
+    background-color: #87CEEB;
+}
+
+.transition-echelle:hover {
+    transform: translate(10px, 10px) rotate(5deg) scale(1.1);
+}
+
+/* Transition de bordure 
+.transition-bordure {
+    background-color: #8c564b;
+}
+
+.transition-bordure:hover {
+    border-width: 5px;
+}
+*/
